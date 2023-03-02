@@ -1,3 +1,5 @@
+import type { ProductCartInterface } from "@/interfaces";
+
 export default [
     {
         
@@ -6,6 +8,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Macbook Pro',
         price: 1500,
+        category: 'desktop'
     },
     {   
         id: 2,
@@ -13,6 +16,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Asus Gamer',
         price: 1200,
+        category: 'desktop'
     },
     {   
         id: 3,
@@ -20,6 +24,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Asus Zenbook',
         price: 1500,
+        category: 'streaming'
     },
     {   
         id: 4,
@@ -27,6 +32,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Dell Inspiron',
         price: 900,
+        category: 'streaming'
     },
     {   
         id: 5,
@@ -34,6 +40,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Galaxy Book  2',
         price: 1000,
+        category: 'desktop'
     },
     {   
         id: 6,
@@ -41,6 +48,7 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Huawei d16',
         price: 700,
+        category: 'desktop'
     },
     {   
         id: 7,
@@ -48,12 +56,14 @@ export default [
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'MSI Gamer',
         price: 1200,
+        category: 'gamer'
     },
     {   
         id: 8,
         image: 'src/assets/images/recoil-6.png',
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perferendis.',
         title: 'Recoil 6',
-        price: 2000,
+        price: 2200,
+        category: 'gamer'
     },
-]
+] as ProductCartInterface[]
